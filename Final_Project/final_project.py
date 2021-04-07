@@ -25,7 +25,7 @@ msg ['Subject'] = subject
 msg ['To'] = ', '.join(recipient)    
 msg.attach(MIMEText(message, "plain"))
 
-file_path = "C:\\...\\<attachment file name>.txt"
+file_path = "C:\\...\\<attachment_file_name>.txt"
 filename = os.path.basename(file_path)
 attachment = open(file_path, "rb")
 
