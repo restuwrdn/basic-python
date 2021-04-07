@@ -9,8 +9,8 @@ from email import encoders
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 465
 
-sender = 'restuardam@gmail.com'
-password = "Exciter16/magson"
+sender = '<username>@gmail.com'
+password = "<password>"
 
 receiver_list_file = open("receiver_list.txt", "r+")
 recipient = [i.strip() for i in receiver_list_file.readlines()]
@@ -25,7 +25,7 @@ msg ['Subject'] = subject
 msg ['To'] = ', '.join(recipient)    
 msg.attach(MIMEText(message, "plain"))
 
-file_path = "C:\\Learn AI\\basic python 5\\basic-python\\Final_Project\\test_file.txt"
+file_path = "C:\\...\\<attachment file>.txt"
 filename = os.path.basename(file_path)
 attachment = open(file_path, "rb")
 

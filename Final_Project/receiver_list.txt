@@ -1,2 +1,2 @@
-restuwrdn@gmail.com
-andrestuward@gmail.com
+<receiver1>@gmail.com
+<receiver2>@gmail.com
